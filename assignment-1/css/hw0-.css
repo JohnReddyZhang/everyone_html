@@ -1,0 +1,195 @@
+/*
+	Michael TUCKER
+	eastglacierpark@gmail.com
+	+1 (406) 226-9324
+
+	COURSERA - Introduction to CSS
+	Week 1 homework
+*/
+
+
+body
+{
+	/* WEEK 2 - body should have padding 
+	   and margin
+	*/
+	padding: 50px 50px;
+	 margin: 30px 30px 0px 5px; 
+}
+
+header
+{
+	/* WEEK 2 - The header section needs:
+	 	  background color
+	 	  background image with local ref
+	 	  padding
+	*/
+	background-color: rgba(230,154,154,0.24);
+	width: 100%;
+	background-image: url('../images/flywheel.jpg');
+	padding:  5px;
+}
+
+a 
+{
+	/* WEEK 2: links inside the <nav> require custom
+	   styling.  See the nav>a section for this code
+	*/
+	font-family: "Lucida Sans Unicode", Arial, sans-serif;
+	background-color: rgba(96,196,96,1);
+	font-weight: 600;
+	color: rgb(255,255,255); /* #504060; */
+	text-align: center;
+}
+
+nav
+{
+	text-align: center;
+}
+
+nav>a
+{
+	/* WEEK 2: links inside the nav block should have:
+	   display, margin, border-radius, 
+	   text-decoration, padding
+	*/
+	display: inline-block;
+	margin: 0 auto;
+	padding-top: 5px 5px 0px 0px;
+	height: 25px;
+	width: 125px;
+	border-radius: 5px;
+	background-color: rgba(200,200,200,.4);
+	font-weight: 900;
+	font-size: 12pt;
+	font-family: sans-serif;
+	font-variant: small-caps;
+}
+
+
+a.active
+{
+	
+	/* WEEK 2 - link to current page styled
+	   differently
+	*/
+
+	border-color: rgba(0,255,255,.5);
+	background-color: rgba(0,200,200,.75);
+}
+
+nav>a:hover
+{
+	background-color: rgba(200,200,200,1);
+}
+
+nav>a:focus
+{
+	background-color:  rgba(200,200,200,1);
+}
+
+aside
+{
+	/* Default properties for the aside block.
+	   For this exercise, the aside block is
+	   assigned the 'left' style, so all
+	   style assignments in the .left style
+	   override anything in this block
+	*/
+	margin: 0px 20px 20px 0px;
+	width: 25px;
+	background-color: #FF0000;
+	display: inline-block;
+}
+
+.left
+{
+	/* Applied in html files to the <aside> tag 
+	*/
+
+	float: left;
+	width: 240px;
+	background-color: #00ff00;
+	height: 70vh;
+	margin: 0px 10px 10px 5px;
+	padding: 0px 0px 2px 5px;
+	display: block;
+}
+
+aside a
+{
+	background-color: rgba(0,0,0,0);
+}
+
+img
+{
+	/*  WEEK 2 - images are displayed, with
+	 border, centered horiz with space between
+	 the images
+
+	 WEEK 1: images should not be display and should not 
+	 take up any space on the page
+	*/
+	display: inline-block;
+	margin: 5px 5px 0px 5px;
+	width: 90%;
+	border: 2px solid #000000;
+	text-align: center;
+}
+
+h1
+{
+	/*
+	 Heading level 1 tags should be centered
+	 with a new font color
+	*/
+	color: rgb(232,244,255);
+	font-family: "Arial Black", Trebuchet, Arial, sans-serif;
+	text-align: center;
+	/*  according to the video, text should be in all caps */
+	text-transform: uppercase;
+} 
+
+h2 
+{
+	/*
+	 Heading level 2 tags should have a new font color
+	*/
+	color: #173e17;
+	font-family: Trebuchet, "Lucida Sans Unicode", Helvetica, sans-serif;
+	/*  according to the video, text should be in all caps */
+	text-transform: uppercase;
+}
+
+section
+{
+	/*
+	 Section blocks should have a new background color
+	 Note: I'm using rgba in order to set the alpha value
+	*/
+/*	padding: 5px 20px;
+	margin: 0 auto;
+	width: 100%;
+	display: inline;
+*/
+}
+
+.right
+{
+	background-color: rgb(255,0,0,.1);
+}
+
+
+
+/* ----------------------------------------- 
+	DEBUGGING - uncomment this to draw 
+	borders around all objects
+*/
+/*
+* 
+{
+	border: 1px dotted rgba(255,0,255,.5);
+}
+*/
+
+

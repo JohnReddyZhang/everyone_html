@@ -1,0 +1,147 @@
+/*Uploaded by JohnZhang*/
+/*Final starts at line
+75*/
+
+body{
+	padding: 0 10px;
+	margin: 0 15px;
+	font-family: 'Helvetica Neue';
+}
+
+header{
+	background: #ffffff url('../images/flywheel.jpg');
+	padding:5px;
+}
+
+h1{
+	text-align: center;
+	color: rgb(255,255,255);
+	text-transform: uppercase;
+}
+
+nav a{
+	display: inline-block;
+	margin-left:8%;
+	margin-bottom: 15px;
+	background-color: rgba(255,255,255,.25);
+	width:15%;
+	border-radius: 5px;
+	text-align:center;
+	padding: 10px 0;
+	text-decoration: none;
+	color:#000000;
+	transition:background-color, border-radius 0.5s;
+}
+
+
+nav a:hover, nav a:active, .active{
+	background-color: rgba(255,255,255,1);
+	font-weight: bold;
+	font-size: 95;
+	border-radius: 30px;
+}
+
+main>*{
+	display:inline-block;
+	box-sizing: border-box;
+}
+
+.left{
+	width:25%;
+	float:left;
+	background: #5F8A07;
+}
+
+
+.right{
+	padding:5px 15px;
+	width:75%;
+	float:right;
+}
+
+aside img{
+	display: block;
+	width:85%;
+	border:3px solid #000000;
+	margin: 20px auto;
+}
+
+h2{
+	color: rgb(0,0,122);
+	text-transform: uppercase;
+}
+/*FINAL PROJECT STARTS HERE*/
+/*Table Styling Step 1)*/
+table{
+	box-sizing: border-box;
+	width:75%;
+	margin: 16px auto;
+	background: rgba(192,228,127,0.1);
+	border-radius: 19px;
+}
+/*Table Heading styling step 2)*/
+table th{
+	font: 20px Helvetica,Sans-Serif;
+	font-variant: small-caps;
+	font-weight: 600;
+	color:rgb(255,255,255);
+	line-height: 20px;
+	background: #5F8A07;
+	background: -webkit-linear-gradient(#5F8A07,#84BB26);
+	background: -o-linear-gradient(#5F8A07,#84BB26); 
+	background: -moz-linear-gradient(#5F8A07,#84BB26); 
+	background: linear-gradient(#5F8A07,#84BB26);
+	border-bottom:solid 4px #5F8A07;
+	padding: 8px;
+}
+/*Table heading radius*/
+table th:first-child{
+	border-radius: 16px 0 0 0;
+}
+
+table th:last-child{
+	border-radius: 0 16px 0 0;
+}
+/*Change of color in table heading*/
+table th:hover{
+	background: -webkit-linear-gradient(#84BB26,#5F8A07);
+	background: -o-linear-gradient(#84BB26,#5F8A07); 
+	background: -moz-linear-gradient(#84BB26,#5F8A07); 
+	background: linear-gradient(#84BB26,#5F8A07);
+}
+
+/*Table Row opacity*/
+table tr{
+	opacity:0.6;
+	transition: opacity 0.5s;
+}
+
+table tr:first-child{
+	opacity: 0.9 !important;
+}
+/*I just don't want the first row to change at all...*/
+
+table tr:hover{
+	opacity:1;
+}
+
+/*Text Aligning Step 3)*/
+tr th:first-child,td:first-child{
+	text-align: left;
+}
+
+tr td:nth-child(2), td:last-child{
+	text-align: center;
+}
+/*Table elements styling FINAL STEP*/
+table td{
+	font: 16px "Palatino Linotype", "Times New Roman", Serif;
+	font-weight: bold;
+	color: #000088;
+	line-height: 16px;
+	padding:8px;
+	background: #C0E47F;
+	border-radius: 2px;
+	border: solid 1px #84BB26;
+	text-shadow: 1px 1px 1px #000054;
+}

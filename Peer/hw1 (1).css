@@ -1,0 +1,42 @@
+
+<style>
+header{
+	width: 780px;
+    height: 100px;
+    background-color: rgba(104, 104, 104, 0.66);
+}
+h1{
+	color: #fff;
+	font-size: 40px;
+	text-transform:uppercase;
+	text-align: center
+	}
+a {
+	font-size: 20px;
+	width: 780px;
+    height: 100px;
+    background-color: rgba(224, 224, 224, 0.66);
+}
+h2{
+	color: #050879;
+	font-size: 35px;
+	text-transform:uppercase;
+}	
+section{
+	font-size: 18px;
+	width: 780px;
+    height: 302px;
+	background-color: rgba(50, 50, 50, 0.66);
+}
+}
+a:link {
+    background-color: rgba(0, 0, 0, 0);
+}
+a {
+	color: #000000;
+}	
+img{
+	display: none;
+}
+
+</style>

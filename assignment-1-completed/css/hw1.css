@@ -1,0 +1,27 @@
+header{
+	background-color: rgb(178,178,178);
+}
+
+h1{
+	text-align: center;
+	color: rgb(255,255,255);
+	text-transform: uppercase;
+}
+
+h2{
+	color: rgb(0,0,122);
+	text-transform: uppercase;
+}
+
+section{
+	background-color: rgb(127,127,127);
+}
+
+a{
+	text-align: center;
+	color: rgb(17,8,19);
+	background-color: rgb(197,197,197);
+}
+aside{
+	display: none;
+}

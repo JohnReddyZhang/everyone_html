@@ -1,0 +1,24 @@
+span{
+	height: 50px;
+	width:300px;
+	background:#00ff00;
+}
+
+div{
+	/*height:400px;*/
+	width:30%;
+	background:#00ffff;
+	display:inline-block;
+}
+
+p{
+	background:#ff00ff;
+	width: 200px;
+	height: 100px;
+	clear:both;
+}
+
+#divb{
+	visibility: hidden;
+
+}

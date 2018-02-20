@@ -1,0 +1,151 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: "Segoe UI" sans-serif arial "times new roman";
+    font-size: 150%;
+    font-style: normal;
+}
+
+header {
+    height: 230px;
+    background: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg) no-repeat;
+    background: url(../images/flywheel.jpg) no-repeat;
+    background-size: 100%;
+    width: 94%;
+    margin: 3.25% 3.25% 0 3.25%;
+    padding: 0;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 75%;
+    padding: 30px 0 0 0;
+    margin: 2.25% 0% 2.25% 0%;
+}
+
+h2{
+    font-size: 92%;
+    font-weight: bolder;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+    padding: 0% 0% 0% 0%;
+    margin: 5% 8.5% 5% 8.5%;
+    border: solid 1px black;
+}
+
+nav{
+    text-decoration: none;
+}
+
+nav a, nav a:hover {
+    display: inline-block;
+    background-color: azure;
+    margin-left: 2.8%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0.3% 8% 0.3% 7.6%;
+    font-size: 80%;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: darkgoldenrod;
+}
+
+.active{
+    opacity: 1;
+}
+
+nav a:hover{
+    opacity: 1;
+}
+
+.left {
+    display: inline-block;
+    width: 24%;
+    float: left;
+    background-color: darkgoldenrod;
+    margin: 0% 0% 0% 3.26%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+p{
+    margin-top: 1.3%;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.right{
+    display: inline-block;
+    width: 70%;
+    margin: 0.5%;
+    font-size: 90%;
+}
+
+h2{
+    margin: 2% 0% 0.3% 0%;
+}
+
+/* changements sur la table */
+
+table{
+    margin: 0 auto;
+    padding: 15px;
+    font-variant: normal;
+    line-height: 45px;
+}
+
+th{
+    border-color: black;
+    border-width: 1px;
+    border: ;
+    background-color:darkgoldenrod;
+    background: linear-gradient(darkgoldenrod,#4CAF50);
+}
+
+td{
+    background-color: darkseagreen;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+th:first-child{
+    text-align: left;
+    width: 56%;
+    border-radius: 10px 0px 0px 0px;
+}
+
+th:last-child{
+    border-radius: 0px 10px 0px 0px;
+}
+
+td:first-child{
+    text-align: left;
+    width: 56%;
+}
+
+tr{
+    text-align: center;
+    opacity: 0.75;
+}
+tr:hover{
+    width: 22%;
+    opacity: 1;
+}
+td:last-child{
+    width:22%;
+}
